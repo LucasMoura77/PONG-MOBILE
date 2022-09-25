@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.box{
+    width: 90%;
+    height: 85%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #67B26F,#4ca2cd);
+    margin-bottom: 10px;
+}
+.barCpu{
+    position: absolute;
+    width: 30%;
+    height: 1.5vh;
+    background-color: black;
+    top: 1.2%;
+}
+
+.ball{
+    position: absolute;
+    top: 48%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.line{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    border: 1px black;
+    border-style: dashed;
+}
+
+
+
+.barPlayer{
+    position: absolute;
+    width: 30%;
+    height: 1.5vh;
+    background-color: black;
+    bottom: 1.2%;
+}
+
+.btn{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns {
+    width: 45%;
+    padding: 7px 15px 7px 15px;
+    background-color: black;
+    border: 3px solid #4ca2cd;
+    font-weight: bolder;
+    color: #4ca2cd;
+}
+
+.init{
+    padding: 7px;
+    font-weight: bolder;
+    border: 3px solid #4ca2cd;
+    color: #4ca2cd;
+    background-color: black;
+}
+
+.cpuScore {
+    position: absolute;
+    font-size: 3em;
+    bottom: 63%;
+    left: 80%;
+}
+
+.playerScore {
+    position: absolute;
+    font-size: 3em;
+    left: 80%;
+    bottom: 25%;
+}
